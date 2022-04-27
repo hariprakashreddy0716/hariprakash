@@ -29,21 +29,12 @@ class Parent{
     }
 
 }
-//compiler will add defaukt constructor bydefault with below line
-//Child(){
-//    super()
-//}
-//if you modified constructor in parent class then u have to modify constructor in child class. u need to add super with parameter
-//this indicate current class instance and this() will invoke current class constructor
-//super is super class instance and super() indicate super class constructor
-// super() or this() must be the first line of any constructor. u can not invoke super() and this() at one time from one constructor
 
 
 
 public class Child extends Parent{
     Child(){
         this(5);
-//        super(4);
 
         System.out.println("from default child");
     }
