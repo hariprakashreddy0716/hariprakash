@@ -7,7 +7,6 @@ public class StaticExample {
         StaticExample obj = new StaticExample();
         obj.a2 = 6;
         a= 9;
-//       a2 =7;
         System.out.println("from static function");
     }
 
