@@ -4,7 +4,7 @@ import java.util.function.Function;
 
 
 public class FunctionExample {
-    public void show(){  //defining the function
+    public void show(){  
         System.out.println("this is called from function");
     }
     public float show(int a, int b){
