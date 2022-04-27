@@ -1,8 +1,7 @@
 public class OperatorExample1 {
     public static void main(String[] args) {
         int x =10;
-//        int j = ++x;//pre increment
-        int j = x++;// post increment
+        int j = x++;
         System.out.println("j = " + j);
 
 
@@ -11,13 +10,6 @@ public class OperatorExample1 {
         System.out.println("x = " + x);
         System.out.println("++x = " + ++x);
         System.out.println("x = " + x);
-
-
-//  T && T--> T    T ||T==T
-//        T&& F-->F    T|| F-->T
-//        F&&T --F     F||T-->T
-//        F&&F=F   F||F==F
-//        &&->|
         int age = 18;
         char Gender = 'F';
         int x1 = 6;
