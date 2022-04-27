@@ -23,11 +23,11 @@ public class StaticExample {
         obj2.a =7;
         obj2.a2=5;
 
-        System.out.println(obj.a);  //7
-        System.out.println(obj.a2);  //8
+        System.out.println(obj.a); 
+        System.out.println(obj.a2); 
 
-        System.out.println(obj2.a);  //7
-        System.out.println(obj2.a2); //5
+        System.out.println(obj2.a); 
+        System.out.println(obj2.a2);
 
         System.out.println(StaticExample.a);
 
